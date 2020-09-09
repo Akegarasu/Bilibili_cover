@@ -1,7 +1,7 @@
 # Bilibili_cover
 一个快速根据av/bv号提取bilibili封面真实链接的库 同时支持av/bv号转换
 
-##使用方法
+## 使用方法
 
     import get_cover
     #方法1
@@ -10,3 +10,6 @@
     #方法1
     get_cover.run('av/bvid')
     #返回值：字典{'bvid','avid','cover_link'}
+
+## 直接食用 
+运行main.py 输入av/bv id即可
